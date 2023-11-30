@@ -41,7 +41,7 @@
 `python -m venv myenv
 `
 
-### step2 active
+### step2 activate
 
 `myenv\Scripts\activate.bat
 `
@@ -50,3 +50,5 @@
 
 `deactivate
 `
+
+---

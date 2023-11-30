@@ -34,4 +34,29 @@
 
 ### **django app create commmad**
 
-**django-admin startapp first_app**
+```django
+django-admin startapp first_app
+```
+
+### then create file urls.py
+
+### settings.py Declare with app installed list
+
+### **Example**
+
+### INSTALLED_APPS = [
+
+    'first_app',
+
+]
+
+### then project floder urls include
+
+### **Example**
+
+```
+from django.urls import path , include
+urlpatterns = [
+   path('first/', include('first_app.urls')),
+]
+```
